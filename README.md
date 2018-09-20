@@ -2,6 +2,8 @@
 
 When using [yarn workspaces](https://yarnpkg.com/en/docs/workspaces) the `react-static` build does not output expected results from `<Head/>` usage.
 
+https://github.com/nozzle/react-static/issues/762
+
 ## How to reproduce
 
 Update to latest `react-static` cli
