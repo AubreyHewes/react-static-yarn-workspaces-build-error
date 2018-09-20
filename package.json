@@ -1,0 +1,12 @@
+{
+  "name": "react-static-yarn-workspaces-build-error",
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "client"
+  ],
+  "scripts": {
+    "build": "cd client && yarn run build"
+  }
+}
