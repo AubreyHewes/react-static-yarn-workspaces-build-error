@@ -14,7 +14,7 @@ yarn global add react-static
 
 ### First check it actually works outside a workspace
 
-Using this repo `git checkout tags/step1` and skip to "Replace the" else
+_Using this repo? `git checkout tags/step1` and skip to "Replace the" else_
 
 Create a new workspace folder and add a new `react-static` project in that folder
 
@@ -63,7 +63,7 @@ grep "404</tit" dist/404.html
 cd ..
 ````
 
-Using this repo `git checkout tags/step2` and skip to "Then run" else
+_Using this repo? `git checkout tags/step2` and skip to "Then run" else_
 
 ````shell
 yarn init --yes --private
@@ -120,7 +120,7 @@ First remove all `node_modules` from the workspace
 rm -rf node_modules */node_modules
 ````
 
-Using this repo `git checkout tags/step3` else
+_Using this repo? `git checkout tags/step3` else_
 
 Edit the workspace `package.json` and change the `workspaces` property to
 
@@ -145,4 +145,4 @@ Now check the generated file `client/dist/404.html` you can see that it now gets
 grep "404</tit" client/dist/404.html
 ````
 
-wahey.. :-(
+wahey.. finally got some head :-O
