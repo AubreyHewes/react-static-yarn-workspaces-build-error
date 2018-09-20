@@ -3,9 +3,15 @@
   "version": "1.0.0",
   "license": "MIT",
   "private": true,
-  "workspaces": [
-    "client"
-  ],
+  "workspaces": {
+    "packages": [
+      "client"
+    ],
+    "nohoist": [
+      "**/react-static",
+      "**/react-static/**"
+    ]
+  },
   "scripts": {
     "build": "cd client && yarn run build"
   }
