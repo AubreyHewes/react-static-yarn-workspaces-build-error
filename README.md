@@ -129,7 +129,7 @@ Edit the workspace `package.json` and change the `workspaces` property to
         "nohoist": ["**/react-static", "**/react-static/**"],
     },
 
-_Note: The above `nohoist` should just be `["client/react-static", "client/react-static/**"]` though does not seem to work ... ?_
+_Note: The above `nohoist` should just be `["client/react-static", "client/react-static/**"]` though does not seem to work ... ? https://github.com/yarnpkg/yarn/issues/6412_
 
 Then run
 
